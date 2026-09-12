@@ -1,204 +1,535 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>web.dev</title>
 
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <img class="image" src="images/favicon.png" alt="">
-        <p class="web">web.dev</p>
-        <nav>
-            <div class="LINK">
-                <a class="links" href="#">Resources</a>
-                <a class="links" href="#">Discover</a>
-                <a class="links" href="#">Baseline</a>
-                <a class="links" href="#">How to use Baseline</a>
-                <a class="links" href="#">Blog</a>
-                <a class="links" href="#">Case Studies</a>
-            </div>
-        </nav>
+      <nav>
+        <a href="">
+          <img src="images/logo.svg" alt="" width="150" />
+        </a>
+
+        <div class="LINK">
+          <a class="links" href="#">Resources</a>
+          <a class="links" href="#">Discover</a>
+          <a class="links" href="#">Baseline</a>
+          <a class="links" href="#">How to use Baseline</a>
+          <a class="links" href="#">Blog</a>
+          <a class="links" href="#">Case Studies</a>
+        </div>
+
+        <div class="end-side">
+          <img src="images/search.svg" alt="" />
+          <input type="text" placeholder="Search" />
+          <a href="">
+            <img src="images/lightmode.svg" alt="" />
+          </a>
+          <select name="" id="">
+            <a href="#"><option value="1">English</option></a>
+            <a href="#"><option value="2">Deutsch</option></a>
+            <a href="#"><option value="3">Español - América Latina</option></a>
+            <a href="#"><option value="4">Français</option></a>
+            <a href="#"><option value="5">Indonesia</option></a>
+            <a href="#"><option value="6">Italiano</option></a>
+            <a href="#"><option value="7">Polski</option></a>
+          </select>
+          <a href="#">Sign in</a>
+        </div>
+      </nav>
+
+      <div class="second">
+        Guidance to build modern web experiences that work on any browser.
+      </div>
+      <div class="third">
+        We want to hear from you! We are looking for web developers to
+        participate in user research, product testing, discussion groups and
+        more.
+        <a class="div-link1" href="#"
+          >Apply now to join our WebDev Insights Community</a
+        >.
+      </div>
     </header>
-    <div class="second">Guidance to build modern web experiences that work on any browser.</div>
-    <div class="third">
-        We want to hear from you! We are looking for web developers to participate in user research, product testing,
-        discussion groups and more. <a class="div-link1" href="#">Apply now to join our WebDev Insights Community</a>.
-    </div>
 
     <main>
-        <section>
-            <div class="div-section-width">
-                <div class="flex-parent">
-                    <div class="flex-child">
-                        <h3 class="first-size">Building a better web, together</h3>
-                        <p class="first-para">
-                            We want to help you build beautiful, accessible, fast, and secure websites that work
-                            cross-browser, and for all of your users. This site is our home for content to help you on
-                            that journey, written by members of the Chrome team, and external experts who specialize in
-                            web development topics such as accessibility, performance, design, and more.
-                        </p>
-                    </div>
-                    <div class="flex-child">
-                        <img src="images/building.png" alt="" width="500">
-                    </div>
-                </div>
-
-                <div class="flex-parent2">
-                    <div class="flex-child2">
-                        <a href="#">
-                            <img src="images/AIandtheweb.png" alt="">
-                        </a>
-                        <a href="#">AI and the web</a>
-                        <p>
-                            Discover resources created to help you understand and build performant, web-first
-                            experiences with AI.
-                        </p>
-                        <a href="">Learn more</a>
-                    </div>
-                    <div class="flex-child2">
-                        <a href="#">
-                            <img src="images/optimizeINP.png" alt="">
-                        </a>
-                        <a href="">Optimize INP</a>
-                        <p>
-                            Interaction to Next Paint (INP) is now a Core Web Vital metrics. Start measuring and
-                            optimizing your site's INP.
-                        </p>
-                        <a href="#">Learn more</a>
-                    </div>
-                    <div class="flex-child2">
-                        <a href="#">
-                            <img src="images/paymentsandidentity.png" alt="">
-                        </a>
-                        <a href="#">Payments & Identity</a>
-                        <p>
-                            Read up on the latest features and best practices when it comes to identity and payment
-                            processing.
-                        </p>
-                        <a href="#">Learn more</a>
-                    </div>
-                </div>
+      <section>
+        <div class="div-section-width">
+          <div class="flex-parent">
+            <div class="flex-child">
+              <h3 class="first-size">Building a better web, together</h3>
+              <p class="first-para">
+                We want to help you build beautiful, accessible, fast, and
+                secure websites that work cross-browser, and for all of your
+                users. This site is our home for content to help you on that
+                journey, written by members of the Chrome team, and external
+                experts who specialize in web development topics such as
+                accessibility, performance, design, and more.
+              </p>
             </div>
-        </section>
-
-        <section class="explore-web-platform">       <!-- This is for the background-color -->
-            <div class="div-section-width">    <!--  This is for the margin auto style -->
-                <div class="second-section">
-                   <div class="just-two">
-                        <header>
-                            <h2>Explore the web platform</h2>
-                        </header>
-                        <a href="#">Start exploring</a>
-                   </div>
-                   <p>
-                        The web platform is a constantly evolving ecosystem of browser features and APIs for developers to make <br> websites that are easy and delightful to use. These pages are pathways for you to dive into each part of the web <br> platform on web.dev—at your pace.
-                   </p>
-                </div>
-
-                <div class="flex-parent3">
-                    <div class="flex-child3">
-                        <a href="#"><img src="images/image.png" alt=""></a>
-                        <a href="#">HTML</a>
-                        <p>
-                            HTML is the document layer of the web, providing structure and semantics for pages.
-                        </p>
-                        <a href="#">Learn more</a>
-                    </div>
-                    <div class="flex-child3">
-                        <a href="#"><img src="images/image.png" alt=""></a>
-                        <a href="#">CSS</a>
-                        <p>
-                            CSS is the presentation layer of the web, and allows you to make your web pages look exactly like you imagine.
-                        </p>
-                        <a href="#">Learn more</a>
-                    </div>
-                    <div class="flex-child3">
-                         <a href="#"><img src="images/image.png" alt=""></a>
-                        <a href="#">JavaScript</a>
-                        <p>
-                            JavaScript adds rich interactivity to web pages, so you can build websites that help users to perform tasks and accomplish goals.
-                        </p>
-                        <a href="#">Learn more</a>
-                    </div>
-                </div>
+            <div class="flex-child">
+              <img src="images/building.png" alt="" width="500" />
             </div>
-        </section>
+          </div>
 
-
-        <section class="learn-web-platform">
-            <div class="div-section-width">
-                <div class="second-section">
-                    <div class="just-two">
-                        <header><h2>Learn the web platform</h2></header>
-                        <a href="#">Start learning</a>
-                    </div>
-                    <p>
-                        New to the web platform? We've got you covered! Dive into each layer, with courses curated specifically for <br> beginners to HTML, CSS, and JavaScript.
-                    </p>
-                </div>
-
-                <div class="flex-parent4">
-                    <div class="flex-child4">
-                        <a href="">
-                            <img src="images/html.png" alt="">
-                        </a>
-                        <span>Course</span>
-                        <a href="#">Learn HTML</a>
-                        <p>
-                            A solid overview of HTML for developers, from novice to expert level HTML.
-                        </p>
-                        <a href="#">Start course</a>
-                    </div>
-                    <div class="flex-child4">
-                        <a href="">
-                            <img src="images/css.png" alt="">
-                        </a>
-                        <span>Course</span>
-                        <a href="#">Learn CSS</a>
-                        <p>
-                            A guide to CSS with modules covering everything from accessibility to z-index.
-                        </p>
-                        <a href="#">Start course</a>
-                    </div>
-                    <div class="flex-child4">
-                        <a href="">
-                            <img src="images/java.png" alt="">
-                        </a>
-                        <span>Course</span>
-                        <a href="#">Learn JavaScript</a>
-                        <p>
-                            An in-depth course on the basics of JavaScript.
-                        </p>
-                        <a href="#">start course</a>
-                    </div>
-                </div>
-            </div>            
-        </section>
-
-
-        <section class="keep-up">
-            <div class="div-section-width">
-                <div class="flex-parent5">
-                    <div class="flex-child5">
-                        <header><p>Keep up on web development news</p></header>
-                        <p>
-                            Read our blog to learn the latest news in web development, including new web platform features, updates to Baseline, AI, Core Web Vitals, and more.
-                        </p>
-                        <a href="#">Read the blog</a>
-                    </div>
-                    <div class="flex-child5">
-                        <img src="images/keepup.png" alt="">
-                    </div>
-                </div>
+          <div class="flex-parent2">
+            <div class="flex-child2">
+              <a href="#">
+                <img src="images/AIandtheweb.png" alt="" />
+              </a>
+              <a href="#">AI and the web</a>
+              <p>
+                Discover resources created to help you understand and build
+                performant, web-first experiences with AI.
+              </p>
+              <a href="">Learn more</a>
             </div>
-        </section>
+            <div class="flex-child2">
+              <a href="#">
+                <img src="images/optimizeINP.png" alt="" />
+              </a>
+              <a href="">Optimize INP</a>
+              <p>
+                Interaction to Next Paint (INP) is now a Core Web Vital metrics.
+                Start measuring and optimizing your site's INP.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div class="flex-child2">
+              <a href="#">
+                <img src="images/paymentsandidentity.png" alt="" />
+              </a>
+              <a href="#">Payments & Identity</a>
+              <p>
+                Read up on the latest features and best practices when it comes
+                to identity and payment processing.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="explore-web-platform">
+        <!-- This is for the background-color -->
+        <div class="div-section-width">
+          <!--  This is for the margin auto style -->
+          <div class="second-section">
+            <div class="just-two">
+              <header>
+                <h2>Explore the web platform</h2>
+              </header>
+              <a href="#">Start exploring</a>
+            </div>
+            <p>
+              The web platform is a constantly evolving ecosystem of browser
+              features and APIs for developers to make <br />
+              websites that are easy and delightful to use. These pages are
+              pathways for you to dive into each part of the web <br />
+              platform on web.dev—at your pace.
+            </p>
+          </div>
+
+          <div class="flex-parent3">
+            <div class="flex-child3">
+              <a href="#"><img src="images/image.png" alt="" /></a>
+              <a href="#">HTML</a>
+              <p>
+                HTML is the document layer of the web, providing structure and
+                semantics for pages.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div class="flex-child3">
+              <a href="#"><img src="images/image.png" alt="" /></a>
+              <a href="#">CSS</a>
+              <p>
+                CSS is the presentation layer of the web, and allows you to make
+                your web pages look exactly like you imagine.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div class="flex-child3">
+              <a href="#"><img src="images/image.png" alt="" /></a>
+              <a href="#">JavaScript</a>
+              <p>
+                JavaScript adds rich interactivity to web pages, so you can
+                build websites that help users to perform tasks and accomplish
+                goals.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="learn-web-platform">
+        <div class="div-section-width">
+          <div class="second-section">
+            <div class="just-two">
+              <header><h2>Learn the web platform</h2></header>
+              <a href="#">Start learning</a>
+            </div>
+            <p>
+              New to the web platform? We've got you covered! Dive into each
+              layer, with courses curated specifically for <br />
+              beginners to HTML, CSS, and JavaScript.
+            </p>
+          </div>
+
+          <div class="flex-parent4">
+            <div class="flex-child4">
+              <a href="">
+                <img src="images/html.png" alt="" />
+              </a>
+              <span>Course</span>
+
+              <div class="first-grand-child1">
+                <a href="#">Learn HTML</a>
+                <p>
+                  A solid overview of HTML for developers, from novice to expert
+                  level HTML.
+                </p>
+                <a href="#">Start course</a>
+              </div>
+            </div>
+
+            <div class="flex-child4">
+              <a href="">
+                <img src="images/css.png" alt="" />
+              </a>
+              <span>Course</span>
+
+              <div class="first-grand-child1">
+                <a href="#">Learn CSS</a>
+                <p>
+                  A guide to CSS with modules covering everything from
+                  accessibility to z-index.
+                </p>
+                <a href="#">Start course</a>
+              </div>
+            </div>
+
+            <div class="flex-child4">
+              <a href="">
+                <img src="images/java.png" alt="" />
+              </a>
+              <span>Course</span>
+
+              <div class="first-grand-child1">
+                <a href="#">Learn JavaScript</a>
+                <p>An in-depth course on the basics of JavaScript.</p>
+                <a href="#">start course</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="keep-up">
+        <div class="div-section-width">
+          <div class="flex-parent5">
+            <div class="flex-child5">
+              <header><p>Keep up on web development news</p></header>
+              <p>
+                Read our blog to learn the latest news in web development,
+                including new web platform features, updates to Baseline, AI,
+                Core Web Vitals, and more.
+              </p>
+              <a href="#">Read the blog</a>
+            </div>
+            <div class="flex-child5">
+              <img src="images/keepup.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="baseline">
+        <div class="div-section-width">
+          <div class="flex-parent6">
+            <div class="flex-child6">
+              <div class="baseline-first-column">
+                <h2>Baseline</h2>
+                <p>
+                  Get up to speed with the latest updates and news on
+                  <a class="baseline-link" href="#">Baseline</a>.
+                </p>
+                <a href="#">More on Baseline</a>
+              </div>
+            </div>
+
+            <div class="flex-child6">
+              <div class="last-two-columns">
+                <a href="#">July 2026 Baseline monthly digest</a>
+                <p>
+                  Read about various happenings with Baseline during July 2026.
+                </p>
+                <a href="#">Introducing Baseline Alerts</a>
+                <p>
+                  Baseline Alerts have landed on the Web Platform Status
+                  dashboard. Learn how they can shorten the time between
+                  awareness of a web feature, and when you can adopt it.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex-child6">
+              <div class="last-two-columns">
+                <a href="#">June 2026 Baseline monthly digest</a>
+                <p>
+                  Read about various happenings with Baseline during June 2026.
+                </p>
+                <a href="#">
+                  Effortlessly get Baseline target data with the updated
+                  Baseline Checker tool
+                </a>
+                <p>
+                  Get data to select your Baseline target with Google Analytics
+                  data—now faster and easier.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="css">
+        <div class="div-section-width">
+          <div class="flex-parent7">
+            <div class="flex-child7">
+              <div class="all-section-first-column">
+                <h2>CSS and UI design</h2>
+                <p>
+                  Learn the latest tips and techniques to use in your work,
+                  right now.
+                </p>
+                <a href="#">Explore CSS</a>
+              </div>
+            </div>
+
+            <div class="flex-child7">
+              <div class="css-second-column">
+                <a href="#">Adapting typography to user preference using CSS</a>
+                <p>
+                  Adapt a font to your users' preferences, so they're maximally
+                  comfortable reading your content.
+                </p>
+                <a href="#">What are source maps?</a>
+                <p>Improve web debugging experience with source maps.</p>
+              </div>
+            </div>
+
+            <div class="flex-child7">
+              <div class="css-third-column">
+                <a href="#">
+                  New CSS color spaces and functions in all major engines
+                </a>
+                <p>
+                  All major engines now support the new CSS color spaces and
+                  functions. Find out how they can bring vibrancy to your
+                  designs.
+                </p>
+                <a href="#"> CSS subgrid </a>
+                <p>
+                  Subgrid is now interoperable across all three major engines.
+                  Find out how to use it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="core">
+        <div class="div-section-width">
+          <div class="flex-parent8">
+            <div class="flex-child8">
+              <div class="all-section-first-column">
+                <h2>Core Web Vitals</h2>
+                <p>
+                  Build faster websites and apps by understanding Core Web Vitals and other metrics.
+                </p>
+                <a href="#">Explore Core Web Vitals</a>
+              </div>
+            </div>
+            <div class="flex-child8">
+              <div class="core-second-column">
+                <a href="#">The most effective ways to <br> improve Core Web Vitals</a>
+                <p>
+                  A collection of best practices for optimizing websites' Core Web Vitals performance based on the state of the web.
+                </p>
+                <a href="#">Common misconceptions <br> about how to optimize LCP</a>
+                <p>
+                  Explore common misconceptions about optimizing Largest Contentful Paint by looking beyond image optimization and considering factors like Time to First Byte and resource load delay.
+                </p>
+              </div>
+            </div>
+            <div class="flex-child8">
+              <div class="core-third-column">
+                <a href="#">How to optimize INP</a>
+                <p>
+                  Learn how to optimize for the Interaction to Next Paint metric.
+                </p>
+                <a href="#">Best practices for measuring Web Vitals in the field</a>
+                <p>
+                  Guidance for collecting and reporting Web Vitals quickly and reliably.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="progressive">
+        <div class="div-section-width">
+          <div class="flex-parent9">
+            <div class="flex-child9">
+              <div class="all-section-first-column">
+                <h2>Progressive Web Apps</h2>
+                <p>
+                  Create capable web experiences.
+                </p>
+                <a href="#">More on PWA</a>
+              </div>
+            </div>
+
+            <div class="flex-child9">
+              <div class="progressive-second-column">
+                <a href="#">Learn PWA</a>
+                <p>
+                  A course that breaks down every aspect of modern progressive web app development.
+                </p>
+                <a href="#">New patterns for amazing apps</a>
+                <p>
+                  Explore common misconceptions about optimizing Largest Contentful Paint by looking beyond image optimization and considering factors like Time to First Byte and resource load delay.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex-child9">
+              <div class="progressive-third-column">
+                <a href="#">TransformStream is now supported cross browser.</a>
+                <p>
+                  Now that transform streams are supported in Safari, Firefox, and Chrome they are finally ready for prime time.
+                </p>
+                <a href="#">Project Fugu API showcase</a>
+                <p>
+                  On the Chrome Developers site, explore capabilities APIs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="accessible">
+        <div class="div-section-width">
+          <div class="flex-parent10">
+            <div class="flex-child10">
+              <div class="all-section-first-column">
+                <h2>Accessible for all</h2>
+                <p>
+                  Learn how to make your sites more accessible for people with disabilities, whether permanent, temporary, or situational.
+                </p>
+                <a href="#">More on accessibility</a>
+              </div>
+            </div>
+
+            <div class="flex-child10">
+              <div class="accessible-second-column">
+                <a href="#">Learn Accessibility</a>
+                <p>
+                  Our new course is a great entry point and reference for accessibility topics.
+
+                </p>
+                <a href="#">Building the main navigation for a website</a>
+                <p>
+                  This tutorial describes how to build an accessible main navigation of a website. You learn about semantic HTML, accessibility, and how using ARIA attributes can sometimes do more harm than good.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex-child10">
+              <div class="accessible-third-column">
+                <a href="#">Testing web design color contrast</a>
+                <p>
+                  An overview of three tools and techniques for testing and verifying accessible color contrast of your design.
+                </p>
+                <a href="#">Community highlight: Melanie Sumner</a>
+                <p>
+                  Read our interview with Melanie, a software engineer who specializes in digital accessibility.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="payments">
+        <div class="div-section-width">
+          <div class="flex-parent11">
+            <div class="flex-child11">
+              <div class="all-section-first-column">
+                <h2>Payments and identity</h2>
+                <p>
+                  Find the latest techniques and best <br> practices for payments and helping users safely log into your sites and apps.
+                </p>
+                <a href="#">More on identity</a>
+              </div>
+            </div>  
+
+            <div class="flex-child11">
+              <div class="payments-second-column">
+                <a href="#">Create a passkey for passwordless logins</a>
+                <p>
+                  Passkeys make user accounts safer, simpler, easier to use.
+                </p>
+                <a href="#">Web payments overview</a>
+                <p>
+                  Learn more about Web Payments and how they work.
+                </p>
+              </div>
+            </div>  
+
+            <div class="flex-child11">
+              <div class="payments-third-column">
+                <a href="#">Sign in with a passkey</a>
+                <p>
+                  Create a sign in experience that uses passkeys while still accommodating existing password users.
+                </p>
+                <a href="#">Payment and address form best practices</a>
+                <p>
+                  Maximize conversions by helping your users complete address and payment forms as quickly and easily as possible.
+                </p>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+
+    <section class="form">
+      <form action="">
+        <h2>Developer Newsletter</h2>
+        <p>Get the latest news, techniques and updates straight to your inbox.</p>
+
+        <label for="">First Name</label>
+        <input type="text" placeholder="First Name">
+
+        <label for="">Last Name</label>
+        <input type="text" placeholder="Last Name">
+      </form>
+    </section>
+  </body>
 </html>
