@@ -521,8 +521,10 @@
 
     <section class="form">
       <div class="newsletter">
-        <h2>Developer Newsletter</h2>
-        <p>Get the latest news, techniques and updates straight to your inbox.</p>
+        <div class="heading">
+          <h2>Developer Newsletter</h2>
+          <p>Get the latest news, techniques and updates straight to your inbox.</p>
+        </div>
 
         <form action="">
           <div class="names">
@@ -544,7 +546,7 @@
 
           <div class="country">
             <label for="">Country</label>
-            <select name="" id="">
+            <select name="" id="country-options">
               <option value="1">Afghanistan</option>
               <option value="2">Aland Islands</option>
               <option value="3">Albania</option>
@@ -554,8 +556,88 @@
               <option value="7">Angola</option>
             </select>
           </div>
+
+          <p class="last-paragraph">
+            Don't worry, no spam here! Your information will only be used for web.dev and Chrome related updates and our emails are typically no more than 1-2 times a month. You can unsubscribe anytime.
+          </p>
+
+          <div class="checklist1">
+           <input type="checkbox">
+           <label for="">Add me to the web.dev mailing list.</label>
+          </div>
+          
+          <div class="checklist2">
+            <input type="checkbox">
+            <label for="">
+              I accept Google's <a class="same-link" href="#">Terms and Conditions</a> and acknowledge that my  information will be used in accordance with Google's <a class="same-link" href="#">Privacy Policy</a>.
+            </label>
+          </div>
+
+          <img src="" alt="">   <!-- Something still needs to be here -->
+          <button>SUBSCRIBE</button>
         </form>
       </div>
     </section>
+
+    <footer>
+      <div class="footer-up">
+        <div class="flex-parent12">
+        <div class="flex-child12">
+          <img src="images/logo.svg" alt="" width="150">
+          <p>
+            We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for all of your users. This site is our home for content to help you on that journey, written by members of the Chrome team, and external experts.
+          </p>
+        </div>
+
+        <div class="flex-child12">
+          <div class="same-grouping">
+            <h3>Contribute</h3>
+           <a href="#">File a bug</a>
+           <a href="#">See open issues</a>
+          </div>
+        </div>
+
+        <div class="flex-child12">
+          <div class="same-grouping">
+            <h3>Related Content</h3>
+           <a href="#">Chrome for Developers</a>
+           <a href="#">Chromium updates</a>
+           <a href="#">Case studies</a>
+           <a href="#">Podcasts & shows</a>
+          </div>
+        </div>
+
+        <div class="flex-child12">
+          <div class="same-grouping">
+            <h3>Follow</h3>
+           <a href="#">@ChromiumDev on X</a>
+           <a href="#">YouTube</a>
+           <a href="#">Chrome for Developers on LinkedIn</a>
+           <a href="#">RSS</a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="footer-end">
+        <div class="two-links">
+          <a href="#">Terms</a> |
+         <a href="#">Privacy</a>
+        </div>
+        
+        <div class="language">
+          <select name="" id="">
+            <option value="1">English</option>
+            <option value="2">Deutsch</option>
+            <option value="3">Espanol</option>
+            <option value="4">Francais</option>
+            <option value="5">Indonesia</option>
+            <option value="6">Italiano</option>
+            <option value="7">Polski</option>
+            <option value="8">Portugues - Brasil</option>
+          </select>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
