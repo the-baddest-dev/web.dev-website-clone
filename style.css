@@ -15,6 +15,7 @@ img{
 body{
     font-family: "Google Sans", sans-serif;
     background-color: #FFFFFF;
+    padding-top: 40px;
 }
 
 nav{
@@ -22,6 +23,13 @@ nav{
     align-items: center;
     padding: 0 20px;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 50px;
+    background-color: #FFFFFF;
 }
 
 
@@ -182,10 +190,17 @@ nav{
 }
 
 
+
+
 .explore-web-platform{
     background-color: #F5F6F7;
-    /* padding-top: 60px; */
+    padding-bottom: 60px;
 }
+
+
+
+
+/* This part is for both the Explore the web platform and Leran the Webplatform sections */
 
 .second-section{
     margin: 100px 0;
@@ -223,8 +238,91 @@ nav{
     /* border: 2px solid red; */
 }
 
+/* It stops here  */
+
 .flex-parent3{
+    display: flex;
+    gap: 22px;
+    justify-content: space-between;
+    
+}
+
+.flex-child3{
     /* border: 2px solid red; */
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+   
+}
+
+.flex-child3:nth-child(1){
+    /* border: 2px solid blue; */
+    width: 33.33%;
+    
+    
+}
+
+.flex-child3:nth-child(2){
+    /* border: 2px solid green; */
+    width: 33.33%;
+}
+
+.flex-child3:nth-child(3){
+    /* border: 2px solid brown; */
+    width: 33.33%;
+}
+
+.flex-child3 img:nth-child(1){
+    /* border: 2px solid green; */
+    padding-top:80px;
+}
+
+.flex-child3 a:nth-child(2){
+    /* border: 2px solid purple; */
+    padding: 20px 0;
+    display: block;
+    color: #202124;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.flex-child3 a:nth-child(2):hover{
+    text-decoration: underline 2px solid;
+}
+
+.flex-child3 p:nth-child(3){
+    /* border: 2px solid purple; */
+    padding: 20px;
+    display: block;
+    color: #202124;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.flex-child3 a:nth-child(4){
+    /* border: 2px solid brown; */
+    padding: 10px 0;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #1A73E8;
+    border: 2px solid #195bbc ;
+    border-radius: 30px;
+    margin: 0 120px 100px 120px;
+}
+
+.flex-child3 a:nth-child(4):hover{
+    border: none;
+}
+
+
+
+
+
+
+/* .flex-parent3{
+    border: 2px solid red;
     display: flex;
     gap: 22px;
     padding-bottom: 50px;
@@ -237,23 +335,23 @@ nav{
 }
 
 .flex-child3:first-child{
-    /* border: 2px solid palevioletred; */
+    border: 2px solid palevioletred;
     width: 33.33%;
 } 
 
 .flex-child3:nth-child(2){
-    /* border: 2px solid brown; */
+    border: 2px solid brown;
     width: 33.33%;
    
 }
 
 .flex-child3:last-child{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     width: 33.33%;    
 }
 
 .flex-child3 a:nth-child(2){
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     font-size: 20px;
     color: #202124;
     text-decoration: none;
@@ -264,7 +362,7 @@ nav{
 }
 
 .flex-child3 p{
-    /* border: 2px solid brown; */
+    border: 2px solid brown;
     margin: 20px 0;
     font-size: 16px;
     padding: 0 15px;
@@ -284,7 +382,7 @@ nav{
 .flex-child3 a:last-child:hover{
     border: none;
 }
-
+ */
 
 
 .learn-web-platform{
@@ -1258,15 +1356,13 @@ select:focus{
     margin-bottom: 20px;
 }
 
-.checklist1 label:nth-child(2){
+.checklist label:nth-child(2){
     /* border: 2px solid blue; */
     color: #202124;
     padding-bottom: 20px;
-}
+    margin-bottom: 15px; 
+} 
 
-.checklist2 label:nth-child(2){
-    color: #202124;
-}
 
 .same-link{
     color: #1A73E8;
@@ -1315,16 +1411,6 @@ button:focus{
     /* border: 2px solid purple; */
 }
 
-.flex-child12:nth-child(2){
-    /* width: 25%; */
-    /* border: 2px solid yellow; */
-}
-
-.flex-child12:nth-child(3){
-    /* width: 25%; */
-    /* border: 2px solid green; */
-}
-
 .flex-child12:nth-child(4){
     /* width: 25%; */
     /* border: 2px solid red; */
@@ -1360,6 +1446,7 @@ button:focus{
 }
 
 .footer-end{
+    /* border: 2px solid yellow; */
     margin-left: 40px;
     margin-bottom: 40px;
     display: flex;
